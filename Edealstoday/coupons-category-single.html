@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coupon category single</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/scss/index.css">
+</head>
+<style>
+    .cookie-alert.show_cookie {
+        opacity: 1;
+        transform: translateY(0%);
+        transition-delay: 1000ms;
+    }
+
+    .cookie-alert {
+        opacity: 0;
+        width: 300px;
+        transform: translateY(100%);
+        transition: all 500ms ease-out;
+    }
+</style>
+
+<body>
+
+    <!-- Navbar Start -->
+    <section class="navbar-section">
+        <nav>
+            <div class="container py-3 ">
+                <div class="row align-items-center justify-content-around">
+                    <!-- Logo Section -->
+                    <div class="col-lg-6 col-md-12 col-10 mb-4 mb-lg-0 ">
+                        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="Logo"
+                                style="width: 250px;" class="img-fluid"></a>
+                    </div>
+
+                    <!-- Search Section -->
+                    <div class="col-lg-4 col-md-6 col-12 mb-4 mb-md-0">
+                        <form class="d-flex my-2 my-lg-0" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control py-2" placeholder="Search"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-light" type="button" id="button-addon2">
+                                    <i class="fa-solid fa-magnifying-glass px-3"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+                <button class="navbar-toggler my-2 shadow-none btn custom-btn-primary " type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto ">
+                        <a class="nav-link btn custom-btn-primary mx-3 fw-bold text-light " href="#">Home</a>
+                        <a class="nav-link btn custom-btn-primary mx-3 fw-bold text-light" href="#">Feature Stores</a>
+                        <a class="nav-link btn custom-btn-primary mx-3 fw-bold text-light" href="#">Categories</a>
+                        <a class="nav-link btn custom-btn-primary mx-3 fw-bold text-light" href="#">Blog</a>
+                        <a class="nav-link btn custom-btn-primary mx-3 fw-bold text-light" href="#">About us</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar End -->
+
+    <!-- Category Coupon Section Start -->
+    <div class="container">
+        <div class="text-center">
+            <h1 class="fw-normal mt-5">APPAREL-AND-CLOTHING-PROMO-CODES</h1>
+            <div class="d-flex justify-content-center">
+                <div class="col-lg-10 col-12">
+                    <div class="row mt-2 mb-4 gy-3">
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="card rounded-0">
+                                <div class="card-header border-bottom bg-white ">
+                                    <div class="small text-end">
+                                        <p class="mb-0 small">UP TO 50%</p>
+                                        <p class="mb-0 fss text-secondary">Discount</p>
+                                    </div>
+                                </div>
+                                <img src="https://www.thetrackreviews.com/promotions/images/stores/41.jpg" alt="">
+                                <p class="h5 fw-normal text-start ms-3 hovfly">
+                                    RETRO STAGE</p>
+                                <div class="card-footer bg-white">
+                                    <div class="d-flex justify-content-between flex-wrap">
+                                        <p class="fw-bold fs-5 ms-0">VIEWS: 112</p>
+                                        <p class=" mt-1 fss">June 24 29</p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn custom-btn-primary text-white px-4 rounded-2 py-1 mt-3 border-0 mb-3">VIEW
+                                        OFFERS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Category Coupon Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer-section text-white text-center ">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row justify-content-around">
+                <!--Logo column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <a href="#" class="text-uppercase"><img src="assets/images/logo.png" class="w-100" alt=""></a>
+                </div>
+                <!--Logo column-->
+
+                <!--Links column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h6 class="text-uppercase text-center fw-bold">Useful Links</h6>
+
+                    <ul class="list-unstyled mb-0 text-center">
+                        <li>
+                            <a href="#!" class="btn text-white">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="btn text-white">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="btn text-white">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="btn text-white">Terms Of Use</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="btn text-white">Impressum</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="btn text-white">Coupons</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Links column-->
+
+                <!--Social column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h6 class="text-uppercase mb-0 border-bottom pb-3 fw-bold">Follow Us On:</h6>
+
+                    <ul class="list-unstyled d-flex justify-content-around my-2">
+                        <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-facebook fs-4"></i></a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-facebook fs-4"></i></a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-facebook fs-4"></i></a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white"><i class="fa-brands fa-facebook fs-4"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Social column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="d-flex flex-wrap justify-content-around p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span> Copyright 2024, All rights reserved. Designed by<a href="#"
+                    class="btn link-danger text-light">Duosavings</a></span>
+            <span>Disclosure: We may earn commission if you use our
+                links/Coupons.</span>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+        let cookie_box = document.getElementsByClassName("cookie-alert")[0]
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(() => {
+                cookie_box.classList.add("show_cookie")
+            }, 1000);
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/css/app.js"></script>
+</body>
+
+</html>
